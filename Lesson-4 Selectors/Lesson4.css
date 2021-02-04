@@ -1,0 +1,32 @@
+* {
+    color: blueviolet;
+}
+
+h1 {
+    color:blue;
+}
+
+p {
+    color: red;
+}
+
+li{
+    font-size: 20px;
+}
+
+.cocuk{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#ilter-2 {
+    font-style:italic;
+}
+
+[class] {
+    color:red;
+}
+
+[id] {
+    color:blue; 
+}
