@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Başlık - Title - Anlamlı Data</title>
+    <link rel="stylesheet" href="Lesson6.css" />
+</head>
+
+<body>
+    <form action="https://httpbin.org/post" method="POST">
+
+        <div>
+            <input type="hidden" value="s-500" name="product" />
+        </div>
+        <div>
+            <label for="name">Adı</label>
+            <input name="name" id="name" type="text" required />
+        </div>
+
+        <div>
+            <label for="tel">Telefon</label>
+            <input name="tel" id="tel" type="tel" required />
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" required />
+        </div>
+
+        <div>
+            <label for="message">Mesaj</label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+
+        <div>
+            <label for="city">Şehir</label>
+            <select name="city" id="city">
+                <option value="34">İstanbul</option>
+                <option value="35">İzmir</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="color">Sevdiğiniz Renk</label>
+            <input type="radio" name="color" value="red" checked /> Kırmızı
+            <input type="radio" name="color" value="green" /> Yeşil
+        </div>
+
+        <div class="buttons">
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Gönder</button>
+        </div>
+
+    </form>
+</body>
