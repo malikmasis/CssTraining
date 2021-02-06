@@ -1,6 +1,7 @@
 # CssTraining
 During learning CSS, notes which took from https://www.youtube.com/watch?v=yJsq0bqChko&list=PLadt0EaV4m3BX9JaZbKS9B8076bruv93Y&index=1&ab_channel=AdemIlter
 
+TODO: Notlar üzerinden geçilerek düzeltilecektir.
 
 css - adem ilter
 ölçeklenebilir css
@@ -69,3 +70,29 @@ name="" önemli, çünkü arka tarafa bu vesileyle gönderir.
 
 required- formu ilk zorunlu alanına focuslar
 
+css sırasını da best practice olrak html'e göre
+ayarlamak güzel olacaktır.
+
+font-family kullanırken birden fazla kullanırken
+sırayla bakarak ilk olanı uygular
+
+padding-left: 15px - yön belirterek verir
+padding: 15px  her 4 tarafa verir
+
+inherit -> özelliği üst kapsayıcıdan al 
+
+erişebilirik için tarayıcı her input için focus(outline) kullanır.
+
+hex kodları aslında 6 hanelidir
+
+.classname classname1 + classname1 {
+    classname1'den sonra classname1 gelmesi durumunda uygulanır
+}
+
+classname > classname1{
+    direkt altında classname1 bulunursa uygulanacak
+}
+
+button.primary{
+    primary class'ı içeren butonlara uygulanır.
+}
