@@ -96,3 +96,19 @@ classname > classname1{
 button.primary{
     primary class'ı içeren butonlara uygulanır.
 }
+
+box-sizing - 8.ders
+web sayfalarında görülen her şey birer kutudur
+nesne yönelimde her şeyin obje olduğu gibi
+
+hesaplama yöntemi: 400+10+10(padding)+2+2(border)
+border-box dediğimiz zaman max genişliğe ve 3ünün tamamını kabul eder
+ilk değer ise content-box'dır. Orada yukarıdaki veriler ayrı ayrı hesaplanır.
+** bunlara maargin dahil değildir. - border-box dışında kalır.
+Özetle: border-box : 400 ve content-box: 424 olur
+
+** parent'in padding - child'in margin'ine tekabül eder ...
+
+* {
+    box-sizing: border-box;
+}
