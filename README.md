@@ -36,7 +36,6 @@ computed: alınan bütün defaul özellikler
 
 display:%30 css
 user agent: tarayıcılardaki belirli farklıları vardır
-normalize.css: bunları standart haline getirmek için
 
 semantik etiketler: SEO - h1 başlık vs gibi konulara bakar.
 css yazma yöntemleri
@@ -112,3 +111,16 @@ ilk değer ise content-box'dır. Orada yukarıdaki veriler ayrı ayrı hesaplan�
 * {
     box-sizing: border-box;
 }
+
+reset.css ve normalize.css
+tarayıcılar arasındaki farkı ezmek için kurgulanmıştır.
+
+ön tanımlı gelen css'leri ezer.
+user agent stylesheet - default gelenler
+değerleri sıfırlıyor
+
+normalize.css -> buradaki amaç tarayıcı farklılarını eşitlemek
+
+çoğunluk normalize.css kullanmaya başladı
+
+normalize.css veya reset.css en başa yazılmalıdır.

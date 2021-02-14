@@ -4,12 +4,12 @@
 div{
     width: 400px;
     background-color: blue;
-    border: 10px solid;
     padding: 40px;
 }
 
 input{
     width: 100%;
     padding: 10px;
+    border: 10px solid;
     /* box-sizing: border-box; */
 }
