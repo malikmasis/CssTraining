@@ -1,0 +1,16 @@
+
+body{
+	color: red;
+}
+.box{
+	color:yellow;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+
+	/* border-width: 10px;
+	border-style: dashed;
+	border-color: white; */
+
+	border:10px dashed yellow;
+}

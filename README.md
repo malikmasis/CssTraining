@@ -112,7 +112,7 @@ ilk değer ise content-box'dır. Orada yukarıdaki veriler ayrı ayrı hesaplan�
     box-sizing: border-box;
 }
 
-reset.css ve normalize.css
+reset.css ve normalize.css - 9.ders
 tarayıcılar arasındaki farkı ezmek için kurgulanmıştır.
 
 ön tanımlı gelen css'leri ezer.
@@ -124,3 +124,28 @@ normalize.css -> buradaki amaç tarayıcı farklılarını eşitlemek
 çoğunluk normalize.css kullanmaya başladı
 
 normalize.css veya reset.css en başa yazılmalıdır.
+
+ayrı ayrı tanımlamalar ve kısa yollar - 10.ders
+
+padding - margin
+https://www.w3schools.com/cssref/pr_padding.asp
+padding: 20px 10px 50px 40px;
+saat yönü 12'den başlayarak devam edilir.
+3lü ve 2lü kullanımlarda karşısındaki değer alınır
+padding: 20px 10px; //20 10 20 10 gibi düşünebiliriz.
+
+border
+https://www.w3schools.com/cssref/pr_border.asp
+aşağıda yukarı gider ve özelliği ilk bulduğu yerden kullanır
+
+border:10px dashed yellow;
+kalınlık stil ve renk
+
+background
+https://www.w3schools.com/cssref/css3_pr_background.asp
+
+font
+https://www.w3schools.com/cssref/pr_font_font.asp
+
+eğer çok fazla özellik kullanılmayacaksa
+kısa yolu kullanmamak daha mantıklı olacaktır.

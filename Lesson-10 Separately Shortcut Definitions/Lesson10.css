@@ -1,0 +1,13 @@
+.container{
+	padding: 20px;
+	background-color: blue;
+}
+
+.box{
+	/* padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-bottom: 50px; */
+	padding: 20px 10px 50px 40px;
+	background-color: red;
+}

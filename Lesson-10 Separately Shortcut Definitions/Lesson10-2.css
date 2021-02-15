@@ -1,0 +1,9 @@
+
+body{
+	/* height: 100vh;
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-position: center; */
+
+    background: blue url('') center no-repeat;
+}
