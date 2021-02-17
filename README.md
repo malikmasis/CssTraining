@@ -149,3 +149,20 @@ https://www.w3schools.com/cssref/pr_font_font.asp
 
 eğer çok fazla özellik kullanılmayacaksa
 kısa yolu kullanmamak daha mantıklı olacaktır.
+
+Renk değerleri ve currentColor - 11.ders
+red: tarayıcılarda ön tanımlı özellik var (17 tane - css3 ile birlikte 147 oldu )
+color: red; //gibi
+
+hex: #ff4455 veya f45 şeklinde de yazılabilir.
+
+rgb: rgb(22,45,67)
+rbba rgb(22,45,67,0.5) opicity olan bir değer verilir. 0 ile 1 arasında değer alır
+
+transparent
+
+currenctColor: kendisinde yoksa kapsayıcının renkini alır. Kod tekrarından kurtuluruz.
+
+transparent: arka zemini görülmektedir.
+
+inherit: kapsayıcının özelliğini kullanır

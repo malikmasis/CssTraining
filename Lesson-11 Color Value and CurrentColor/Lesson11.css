@@ -1,0 +1,24 @@
+.container {
+	padding: 20px;
+	width: 400px;
+	border: 8px solid;
+	font-size: 18px;
+	color: #0090f7;
+}
+
+svg {
+	/* stroke: #000; */
+	stroke: currentColor
+}
+
+p {
+	padding: 30px;
+	color: white;
+	background: black;
+}
+
+button {
+	border: 2px solid;
+	padding: 10px;
+	background-color: inherit;
+}
