@@ -166,3 +166,12 @@ currenctColor: kendisinde yoksa kapsayıcının renkini alır. Kod tekrarından 
 transparent: arka zemini görülmektedir.
 
 inherit: kapsayıcının özelliğini kullanır
+
+Temel ölçü birimleri - 12.ders
+px:ekran çözünürlüğünden bağımsız çalışır.
+
+em = font-size (varsayılan 16px) - 1em = 20px
+rem = root em -> kapsayıcıya bakmadan root'a bakar
+% = kapsayıcının yüzdesi ile alakalı
+vh - vw =( view port height-weight) tarayıcının oranı ile alakalı
+vmin - vmax = 
