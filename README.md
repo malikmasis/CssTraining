@@ -175,3 +175,10 @@ rem = root em -> kapsayıcıya bakmadan root'a bakar
 % = kapsayıcının yüzdesi ile alakalı
 vh - vw =( view port height-weight) tarayıcının oranı ile alakalı
 vmin - vmax = 
+
+Görünüm Özellikleri - 12.ders
+visibility: hidden - layout her şey korunur, görünür gizlenir.
+display: none - layout'ta yokmuş gibi ama dom'da var.
+opacity: 0 ile 1 arasındaki değerdir. 0 olursa  visibility hidden ile aynı mantıktadır.
+
+image lazing loading: sayfaya image trafiğini yüklememk (diğer static dosyalar için de geçerli)
